@@ -1,0 +1,17 @@
+.wrapp {
+  width: 80%;
+  min-height: 400px; }
+
+.one, .two {
+  width: 20%;
+  height: 200px;
+  background-color: red;
+  float: left;
+  border: 1px solid black;
+  border-radius: 15px; }
+
+.two {
+  background-color: blue; }
+  .two h1 {
+    text-align: center;
+    color: aqua; }

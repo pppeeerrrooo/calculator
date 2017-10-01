@@ -1,0 +1,21 @@
+$bc: blue
+=mix1($rad)
+    border: 1px solid black
+    border-radius: $rad
+.wrapp 
+    width: 80%
+    min-height: 400px
+.one
+    width: 20%
+    height: 200px
+    background-color: red
+    float: left
+    +mix1(15px)
+.two
+    @extend .one
+    background-color: $bc
+    
+    h1
+        text-align: center
+        color: blue
+        
